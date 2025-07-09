@@ -1,6 +1,6 @@
 // features/customCommands.js
 
-const CustomCommand = require('../models/CustomCommand');
+const CustomCommand = require('../models/CustomCommands');
 const { sendLog } = require('../utils/logger');
 const { parseMessageContent } = require('./welcomeSystem'); // Import the new parser
 
